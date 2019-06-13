@@ -23,7 +23,7 @@ eureka:
         #     defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 ---
 server:
-    port: 7001
+    port: 7002
 spring:
    profiles: test   #开发环境
    application:
@@ -32,7 +32,7 @@ eureka:
 #   server:
 #        enable-self-preservation: false    #禁用eureka自我保护机制
     instance:
-         hostname: eureka7001.com      #多服务集群时使用，通过域名映射实现
+         hostname: eureka7002.com      #多服务集群时使用，通过域名映射实现
     #    hostname: localhost #eureka服务端实例名称，单一服务时使用
     client:
         register-with-eureka: false      #不向注册中心注册自己

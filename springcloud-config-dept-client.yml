@@ -48,7 +48,6 @@ info:
    build.artifactId: $project.artifactId$
    build.version: $project.version$
 ---
----
 mybatis: 
     config-location: classpath:mybatis/mybatis.config.xml   # mybatis配置文件路径
     type-aliases-package: com.mybatis.entites               #Entity实体类别所在包
