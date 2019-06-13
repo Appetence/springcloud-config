@@ -54,12 +54,12 @@ mybatis:
     type-aliases-package: com.mybatis.entites               #Entity实体类别所在包
     mapper-locations: classpath:mybatis/mapper/**Mapper.xml   #mapper映射文件
 spring:
-   profiles: test   #开发环境
+   profiles: test   #测试环境
    application: 
       name: provider-dept
    datasource:
       type: com.alibaba.druid.pool.DruidDataSource           #当前数据源操作类型
-      url: jdbc:mysql://localhost:3306/springcloud8001?characterEncoding=UTF-8&autoReconnect=true
+      url: jdbc:mysql://localhost:3306/springcloud8002?characterEncoding=UTF-8&autoReconnect=true
       driver-class-name: com.mysql.jdbc.Driver            #驱动类
       username: root
       password: root
