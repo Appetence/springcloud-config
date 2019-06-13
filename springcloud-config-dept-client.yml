@@ -79,7 +79,7 @@ spring:
    cloud:
       config: false
 server:
-   port: 8001
+   port: 8002
 eureka: 
    client:    #客户端注册如eureka服务列表
       service-url: 
