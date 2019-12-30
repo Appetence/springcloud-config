@@ -8,7 +8,7 @@ server:
 spring:
    profiles: dev   #开发环境
    application:
-     name: springcloud-client-config
+     name: springcloud-client-config111
 eureka:
   client:
     service-url:
