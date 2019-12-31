@@ -19,7 +19,7 @@ server:
 spring:
    profiles: test   #开发环境
    application:
-     name: springcloud-client-config
+     name: springcloud-client-config213
 eureka:
   client:
     service-url:
